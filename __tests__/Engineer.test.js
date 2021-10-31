@@ -21,9 +21,9 @@ test ('create GitHub username',() => {
 
 test ('create getGitHub',() => {
 
-    const engineer = new Engineer ('Mital', 100, 'email', 'githubuser');
+    const engineer = new Engineer ('Mital', 100, 'email', 'github');
 
-    expect(engineer.getGithub()).toEqual('githubuser');
+    expect(engineer.getGithub()).toEqual('github');
 
 });
 
