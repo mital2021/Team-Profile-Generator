@@ -7,33 +7,33 @@ test ('create employee object', () => {
 });
 
 test ('create employee name', () => {
-    const employee = new Employee('Mital');
+    const employee = new Employee('name');
 
-    expect(employee.name).toEqual('Mital');
+    expect(employee.name).toEqual('name');
 });
 
 
 test('create emploee id', () => {
-    const employee = new Employee('Mital', 100);
+    const employee = new Employee('name', 100);
     
     expect(employee.id).toEqual(100);
   });
 
 test ('create employee email', () => {
-    const employee = new Employee('Mital', 100, 'email');
+    const employee = new Employee('name', 100, 'email');
     
     expect(employee.email).toEqual('email');   
  });
 
  test ('create employee getName', () => {
-    const employee = new Employee('Mital');
+    const employee = new Employee('name');
 
-     expect(employee.getName()).toEqual('Mital');
+     expect(employee.getName()).toEqual('name');
  });
 
  test ('creat employee getId', () => {
    
-    const employee = new Employee('Mital', 100);
+    const employee = new Employee('name', 100);
 
     expect(employee.getId()).toEqual(100);
 

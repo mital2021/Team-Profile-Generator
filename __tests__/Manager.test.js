@@ -14,7 +14,7 @@ test ('create Manager object', () => {
     
     test ('create officeNumber ',() => {
     
-        const manager = new Manager ('Mital', 100, 'email', 123);
+        const manager = new Manager ('name', 100, 'email', 123);
     
         expect(manager.officeNumber).toEqual(123);
     
@@ -23,7 +23,7 @@ test ('create Manager object', () => {
       
     test ( 'create getRole to return Manager', () => {
     
-        const manager = new Manager('Mital', 100, 'email', 123, 'Manager');
+        const manager = new Manager('name', 100, 'email', 123, 'Manager');
     
         expect(manager.getRole()).toEqual('Manager');
     });

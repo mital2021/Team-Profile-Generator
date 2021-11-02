@@ -13,7 +13,7 @@ test ('create Intern object', () => {
     
     test ('create school',() => {
     
-        const intern = new Intern ('Mital', 100, 'email', 'NYU');
+        const intern = new Intern ('name', 100, 'email', 'NYU');
     
         expect(intern.school).toEqual('NYU');
     
@@ -22,7 +22,7 @@ test ('create Intern object', () => {
     
     test ('create getSchool',() => {
     
-        const intern = new Intern ('Mital', 100, 'email', 'NYU');
+        const intern = new Intern ('name', 100, 'email', 'NYU');
     
         expect(intern.getSchool()).toEqual('NYU');
     
@@ -30,7 +30,7 @@ test ('create Intern object', () => {
     
     test ( 'create getRole to return Intern', () => {
     
-        const intern = new Intern ('Mital', 100, 'email', 'NYU', 'Intern');
+        const intern = new Intern ('name', 100, 'email', 'NYU', 'Intern');
     
         expect(intern.getRole()).toEqual('Intern');
     });

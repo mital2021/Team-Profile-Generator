@@ -12,7 +12,7 @@ expect(typeof(engineer)).toEqual('object');
 
 test ('create GitHub username',() => {
 
-    const engineer = new Engineer ('Mital', 100, 'email', 'github');
+    const engineer = new Engineer ('name', 100, 'email', 'github');
 
     expect(engineer.github).toEqual('github');
 
@@ -21,7 +21,7 @@ test ('create GitHub username',() => {
 
 test ('create getGitHub',() => {
 
-    const engineer = new Engineer ('Mital', 100, 'email', 'github');
+    const engineer = new Engineer ('name', 100, 'email', 'github');
 
     expect(engineer.getGithub()).toEqual('github');
 
@@ -29,7 +29,7 @@ test ('create getGitHub',() => {
 
 test ( 'create getRole to return Engineer', () => {
 
-    const engineer = new Engineer('Mital', 100, 'email', 'githubuser', 'Engineer');
+    const engineer = new Engineer('name', 100, 'email', 'githubuser', 'Engineer');
 
     expect(engineer.getRole()).toEqual('Engineer');
 });
