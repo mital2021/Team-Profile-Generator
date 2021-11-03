@@ -31,4 +31,4 @@ Mital Goghari
 
 
 ## Walkthrough Video
-https://watch.screencastify.com/v/PLHEghdtRscAKXAJ6S2Y
+https://watch.screencastify.com/v/OzSUFN2VH2opmPRYMApT
