@@ -3,7 +3,6 @@ const inquirer = require('inquirer');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const Manager = require('./lib/Manager');
-const pageTemplate = require('./src/pagetemplate.js');
 const generate = require('./src/pagetemplate.js');
 
 const questions = () => {
@@ -82,10 +81,7 @@ const questions = () => {
         message: 'Select employee from the list below:',
         choices: ['Engineer', 'Intern']
       },
-//     ]);
-//   };
-//   const engineer = () => { 
-//       return inquirer.prompt([
+
     {
       type: 'input',
       name: 'engName',
@@ -161,11 +157,7 @@ const questions = () => {
         message: 'Select employee from the list below:',
         choices: ['Engineer', 'Intern']
       },
-//     ]);
-//   };
 
-//   const intern = () => { 
-//     return inquirer.prompt([
   {
     type: 'input',
     name: 'intName',
@@ -267,16 +259,5 @@ function init() {
 // Function call to initialize app
 init();
 
-  
-//  promptUser()
-//   .then()
-//   .then(portfolioData => {
-//      const pageHTML = generatePage(portfolioData);
-  
-//       fs.writeFile('./dist/index.html', pageHTML, err => {
-//         if (err) throw new Error(err);
-  
-//         console.log('Page created! Check out index.html in this directory to see it!');
-//       });
-//    });
+
   

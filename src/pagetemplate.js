@@ -1,6 +1,4 @@
-// module.exports = templateData => {
 
-//   const {name, role, id, email, officeNumber,github,school}= templateData;
   
 function pagetemplate(data) {
 
